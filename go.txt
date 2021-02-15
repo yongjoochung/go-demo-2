@@ -1,0 +1,85 @@
+
+https://golang.org/
+
+https://code.visualstudio.com/docs/languages/go
+
+
+-- go extension for visual code
+https://marketplace.visualstudio.com/items?itemName=golang.go
+
+
+https://www.youtube.com/watch?v=1MXIGYrMk80&feature=youtu.be
+
+how to write go code
+=====================
+1. golang.org
+2. vscode
+3. golang.org/doc/code.html
+4. open folder with go code
+5. search go extension - install
+6. go module - unit of distribution
+7. create a module at terminal
+	go mod init example.com/go-demo-1
+8. create a package which is a folder containing go code
+	PS C:\go-demo-1> go mod init example.com/go-demo-1
+
+***** get-history
+***** get-command
+
+1. open a folder for GO module
+2. click EXTENSION button on left
+3. create GO module - distribution and versioning
+4. go mod init example.com/go-demo-1
+5. create GO package - contains GO code
+	- create 'mascot' folder
+	- create 'mascot' file - will open up mascot.go
+6. create main.go package - a go pacakge
+   package main
+   import "fmt"
+   func main() {
+       fmt.Println("Hello, world.")
+   }
+7. build and install that program with GO tool
+   go install example.com/user/hello
+   \users\chung\go\bin - folder
+    or
+   $HOME/go  or %USERPROFILE%\go
+   go env -w GOBIN=/somewhere/else/bin
+   go env -u GOBIN
+
+   GOBIN  or GOPATH
+
+
+   Power Shell (PS):   $env:path   $env:path += ";path2"
+ 
+Didn't work?
+If you aren't redirected, you can add the token manually.
+
+Your authorization token:
+vscode://vscode.github-authentication/did-authenticate?windowid=1&code=a411b2bff835816041f0&state=a53b7dc1-bbcc-472b-810f-56ffe6e484a4
+✅ Copied
+Copy the token.
+Switch back to VS code.
+Click Signing in to github.com... in the status bar.
+Paste the token and hit enter.
+
+https://github.com/yongjoochung/WINSSH
+
+Visual Studio - GITHUB
+View menu - SCM(source control manager) - Initial Repository
+1. Install GIT   https://git-scm.com/
+
+https://code.visualstudio.com/docs/editor/versioncontrol
+
+
+https://git-scm.com/download/win
+
+
+ git remote add <name> <url>
+
+
+
+
+
+
+	
